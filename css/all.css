@@ -1,0 +1,268 @@
+@font-face {
+    font-family: 'Glacial Indifference';
+    src: url('../fonts/glacial-indifference.regular.otf') format('truetype');
+    /* Sesuaikan nama file dan format font sesuai dengan yang Anda unduh */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    /* Gunakan jenis huruf Arial atau sans-serif */
+    background-color: #D9EDBF;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 70px;
+}
+
+h1 {
+    font-size: 32px;
+    /* Ukuran font h1 */
+    color: #333;
+    /* Warna font h1 */
+    text-align: center;
+    /* Pusatkan judul */
+    margin-top: 50px;
+    /* Berikan jarak atas */
+}
+
+.teknologi {
+    font-size: 18px;
+    /* Ukuran font untuk "Teknologi Informatika" */
+    color: #666;
+    /* Warna font untuk "Teknologi Informatika" */
+    text-align: center;
+    /* Pusatkan teks */
+}
+
+.navigasi {
+    background-color: #2C7865;
+    /* Warna latar belakang navigasi */
+    padding: 10px;
+    /* Padding untuk menjaga jarak dari konten */
+    text-align: center;
+    /* Pusatkan teks */
+}
+
+.navigasi a {
+    font-size: 15px;
+    color: #fff;
+    /* Warna teks */
+    text-decoration: none;
+    /* Hapus dekorasi tautan */
+    padding: 10px 15px;
+    /* Berikan padding agar tautan lebih mudah diklik */
+    margin: 0 5px;
+    /* Jarak antar tautan */
+    border-radius: 5px;
+    /* Buat sudut tautan menjadi sedikit melengkung */
+    transition: background-color 0.3s;
+    /* Transisi perubahan warna latar belakang */
+}
+
+.navigasi a:hover {
+    background-color: #90D26D;
+    /* Warna latar belakang saat tautan dihover */
+}
+
+
+
+/* CSS UNTUK PAGE HOME */
+.texthome {
+    font-family: 'Glacial Indifference';
+    font-size: 16px;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.texthome:hover {
+    transform: translateY(-5px);
+}
+
+.admin-box {
+    font-style: italic; /* Membuat teks miring */
+    color: #333; /* Mengubah warna teks */
+    text-align: right; /* Mengatur teks ke kanan */
+    margin-top: 20px; /* Memberikan margin atas */
+}
+
+
+
+/* CSS UNTUK PAGE PROFILE */
+.containerprofile {
+    font-family: 'Glacial Indifference', Arial, Helvetica, sans-serif;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    /* Pusatkan konten */
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.profile-info img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Efek bayangan pada gambar profil */
+    transition: transform 0.3s; /* Menambahkan efek transisi saat perubahan ukuran */
+}
+
+.profile-info img:hover {
+    top: 50%; /* Menempatkan gambar di tengah vertikal */
+    left: 50%; /* Menempatkan gambar di tengah horizontal */
+    transform: translate(-50%, -50%) scale(3.3); /* Menggeser dan memperbesar gambar ke tengah layar */
+    z-index: 9999; /* Menempatkan gambar di atas elemen lain */
+}
+
+.text {
+    color: #333;
+    text-align: left;
+    /* Pusatkan teks ke kiri */
+}
+
+.text h3 {
+    margin-top: 0;
+    color: #FF9800;
+}
+
+
+
+/* CSS UNTUK PAGE ABOUT */
+.containerabout {
+    font-family: 'Glacial Indifference', Arial, sans-serif;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+    /* Pusatkan konten */
+}
+
+.h2about {
+    color: #333;
+    text-align: center;
+}
+
+.pabout {
+    color: #555;
+    line-height: 1.6;
+}
+
+
+
+/* CSS UNTUK PAGE GALLERY */
+.containergallery {
+    font-family: 'Glacial Indifference', Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.gallery1 {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    flex-wrap: nowrap; /* Menghindari pemisahan baris */
+    gap: 20px; /* Menambahkan ruang antara gambar dan teks */
+    padding: 20px; /* Menambahkan padding agar konten tidak terlalu dekat dengan tepi kotak */
+    border-radius: 50px; /* Mengatur sudut kotak */
+}
+
+.gallery2 {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    flex-wrap: nowrap; /* Menghindari pemisahan baris */
+    gap: 20px; /* Menambahkan ruang antara gambar dan teks */
+    padding: 20px; /* Menambahkan padding agar konten tidak terlalu dekat dengan tepi kotak */
+    border-radius: 50px; /* Mengatur sudut kotak */
+}
+
+.containergallery img {
+    width: 400px;
+    border-radius: 25px; /* Mengatur sudut gambar */
+}
+
+.text1 {
+    color: #333; /* Warna font - putih atau sesuai dengan preferensi Anda */
+    border-radius: 10px; /* Mengatur sudut kotak */
+    flex: 1; /* Mengatur ukuran kotak teks */
+    padding: 0 20px; /* Menambahkan ruang di sekitar teks */
+    text-align: right; /* Menyamakan teks ke kiri */
+}
+
+.text2 {
+    color: #333; /* Warna font - putih atau sesuai dengan preferensi Anda */
+    border-radius: 10px; /* Mengatur sudut kotak */
+    flex: 1; /* Mengatur ukuran kotak teks */
+    padding: 0 20px; /* Menambahkan ruang di sekitar teks */
+    text-align: left; /* Menyamakan teks ke kiri */
+}
+
+
+
+/* CSS UNTUK PAGE CONTACT */
+.containercontact {
+    font-family: 'Glacial Indifference', Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.contact-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    justify-content: center;
+}
+
+.contact-list a {
+    text-decoration: none;
+    color: black;
+    transition: transform 0.3s ease; /* Efek transisi saat dihover */
+}
+
+.contact-list a:hover {
+    transform: scale(1.1); /* Efek menonjol keluar saat dihover */
+}
+
+
+
+/* CSS UNTUK footer */
+footer {
+    position: fixed; /* Menjadikan footer tetap di bagian bawah layar */
+    bottom: 0; /* Menempatkan footer di bagian bawah layar */
+    width: 100%; /* Memberi lebar penuh pada footer */
+    background-color: #90D26D;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    transition: transform 0.3s, background-color 0.3s; /* Efek transisi saat scaling dan perubahan warna latar belakang */
+}
+
+.pfoot {
+    font-size: 18px;    /* Ukuran font untuk teks footer */
+    margin: 0;
+    padding: 0;
+    cursor: pointer; /* Menjadikan teks menjadi pointer saat dihover */
+}
+
+footer:hover {
+    transform: scale(1.1); /* Efek scaling saat dihover */
+    background-color: #2C7865; /* Warna latar belakang berubah saat dihover */
+}
+
+footer:hover .pfoot {
+    color: black; /* Warna teks menjadi putih saat dihover */
+}
